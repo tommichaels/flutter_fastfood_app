@@ -18,7 +18,7 @@ class ItemList extends StatelessWidget {
             svgSrc: "assets/icons/burger_beer.svg",
             title: "Burger & Beer",
             shopName: "MacDonald's",
-            press: () {
+            press: (String) {
                  Navigator.push(
                 context,
                MaterialPageRoute(
