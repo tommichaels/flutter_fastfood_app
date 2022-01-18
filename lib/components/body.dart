@@ -21,6 +21,7 @@ class Body extends StatelessWidget {
   }
 }
 
+// ignore: camel_case_types
 class itemInfo extends StatelessWidget {
   const itemInfo({
     Key? key,
@@ -30,8 +31,8 @@ class itemInfo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      padding: EdgeInsets.all(20),
-      decoration: BoxDecoration(color: Colors.white,
+      padding: const EdgeInsets.all(20),
+      decoration: const BoxDecoration(color: Colors.white,
       borderRadius: BorderRadius.only(
         topLeft: Radius.circular(30),
         topRight: Radius.circular(30),
