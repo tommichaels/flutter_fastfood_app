@@ -9,9 +9,8 @@ class Body extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
     return Column(
-      children: [
+      children: const [
         itemImage(imgSrc: "assets/images/burger.png",
         ),
         Expanded(
