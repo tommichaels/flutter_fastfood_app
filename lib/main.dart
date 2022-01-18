@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
        scaffoldBackgroundColor: Colors.white,
        textTheme: const TextTheme(bodyText1: TextStyle(color: ksecondaryColor))
       ),
-      home: HomeScreen(),
+      home: DetailsScreen(),
     );
   }
 }
