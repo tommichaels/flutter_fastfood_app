@@ -21,9 +21,9 @@ class Body extends StatelessWidget {
       children: [
         SearchBox(onChanged: (Value) {},
         ),
-        CategoryList(),
-        ItemList(),
-        DiscountCard(),
+        const CategoryList(),
+        const ItemList(),
+        const DiscountCard(),
         ],
     );
   }
