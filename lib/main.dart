@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_fastfood_app/constants.dart';
-import 'package:flutter_fastfood_app/screens/details/details_screen.dart';
 import 'package:flutter_fastfood_app/screens/home/home_screen.dart';
 
 
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
        scaffoldBackgroundColor: Colors.white,
        textTheme: const TextTheme(bodyText1: TextStyle(color: ksecondaryColor))
       ),
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }

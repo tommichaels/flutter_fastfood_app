@@ -14,7 +14,7 @@ class DetailsScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: kPrimaryColor,
       appBar: detailsAppBar(),
-      body: Body(),
+      body: const Body(),
     );
   }
 }
@@ -26,7 +26,7 @@ class Body extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Column(
-      children: [
+      children: const [
         itemImage(imgSrc: "assets/images/burger.png",
         ),
         Expanded(
@@ -46,8 +46,8 @@ class itemInfo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      padding: EdgeInsets.all(20),
-      decoration: BoxDecoration(color: Colors.white,
+      padding: const EdgeInsets.all(20),
+      decoration: const BoxDecoration(color: Colors.white,
       borderRadius: BorderRadius.only(
         topLeft: Radius.circular(30),
         topRight: Radius.circular(30),
@@ -64,7 +64,7 @@ class itemInfo extends StatelessWidget {
             price: 15,
             onRatingChanged: (value) {},
             ),
-            Text("Nowadays, making printed materials have become fast, easy and simple. If you want your promotional material to be an eye-catching object, you should make it colored. By way of using inkjet printer this is not hard to make. An inkjet printer is any printer that places extremely small droplets of ink onto paper to create an image.",
+            const Text("Nowadays, making printed materials have become fast, easy and simple. If you want your promotional material to be an eye-catching object, you should make it colored. By way of using inkjet printer this is not hard to make. An inkjet printer is any printer that places extremely small droplets of ink onto paper to create an image.",
             style: TextStyle(height: 1.5,
             ),
             ),
@@ -78,10 +78,10 @@ class itemInfo extends StatelessWidget {
   Row shopName({required String name}) {
     return Row(
           children: [
-            Icon(Icons.location_on, 
+            const Icon(Icons.location_on, 
             color: ksecondaryColor,
             ),
-            SizedBox(width: 10,),
+            const SizedBox(width: 10,),
             Text(name,),
           ],
         );

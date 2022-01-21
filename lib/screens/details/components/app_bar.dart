@@ -7,7 +7,7 @@ AppBar detailsAppBar() {
       elevation: 0,
       backgroundColor: kPrimaryColor,
       leading: IconButton(onPressed: () {}, 
-      icon: Icon(Icons.arrow_back),
+      icon: const Icon(Icons.arrow_back),
       ),
       actions: [IconButton(onPressed: () {}, 
       icon: SvgPicture.asset("assets/icons/share.svg"),

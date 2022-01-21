@@ -22,9 +22,9 @@ class ItemCard extends StatelessWidget {
       
         decoration: BoxDecoration(color: Colors.white,
         borderRadius: BorderRadius.circular(10),
-        boxShadow: [BoxShadow(offset: Offset(0, 4),
+        boxShadow: [BoxShadow(offset: const Offset(0, 4),
         blurRadius: 20,
-        color: Color(0xFFB0CCE1).withOpacity(.32),
+        color: const Color(0xFFB0CCE1).withOpacity(.32),
         ),
         ],
         ),

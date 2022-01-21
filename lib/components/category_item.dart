@@ -18,9 +18,9 @@ class CategoryItem extends StatelessWidget {
       onTap: press(),
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-        child: Column(children: [Text(title, style: isActive ? TextStyle(color: kTextColor,
+        child: Column(children: [Text(title, style: isActive ? const TextStyle(color: kTextColor,
         fontWeight: FontWeight.bold,
-        ) : TextStyle(fontSize: 12)
+        ) : const TextStyle(fontSize: 12)
         ),
         if (isActive) Container(
         margin: const EdgeInsets.symmetric(vertical: 5),  

@@ -14,18 +14,18 @@ class DiscountCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text("Offers & Discounts", 
+          const Text("Offers & Discounts", 
           style: TextStyle(
             fontWeight: FontWeight.bold, 
             color: kTextColor),
             ),
             Container(
-            margin: EdgeInsets.symmetric(vertical: 20),
+            margin: const EdgeInsets.symmetric(vertical: 20),
             width: double.infinity, 
             height: 166,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
-              image: DecorationImage(
+              image: const DecorationImage(
                 fit: BoxFit.fill,
                 image: AssetImage("assets/images/beyond-meat-mcdonalds.png"),
             ),
@@ -34,7 +34,7 @@ class DiscountCard extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
                 gradient: LinearGradient(
-                  colors: [Color(0xFFFF961F).withOpacity(.7),
+                  colors: [const Color(0xFFFF961F).withOpacity(.7),
                   kPrimaryColor.withOpacity(.7),
                 ],
                 ),

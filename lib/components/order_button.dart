@@ -27,8 +27,8 @@ class OrderButton extends StatelessWidget {
           child: Row(
           mainAxisAlignment: MainAxisAlignment.center,  
           children: [SvgPicture.asset("assets/icons/bag.svg"),
-          SizedBox(width: 10,),
-          Text("Order Now", 
+          const SizedBox(width: 10,),
+          const Text("Order Now", 
           style: TextStyle(color: Colors.white,
           fontWeight: FontWeight.bold,
           fontSize: 18,

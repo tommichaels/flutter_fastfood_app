@@ -12,8 +12,8 @@ class SearchBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(20),
-      padding: EdgeInsets.symmetric(horizontal: 25, vertical: 5),
+      margin: const EdgeInsets.all(20),
+      padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 5),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(50),
         border: Border.all(
@@ -25,7 +25,7 @@ class SearchBox extends StatelessWidget {
       decoration: InputDecoration(border: InputBorder.none,
       icon: SvgPicture.asset("assets/icons/search.svg"),
       hintText: "Search Food",
-      hintStyle: TextStyle(color: ksecondaryColor),
+      hintStyle: const TextStyle(color: ksecondaryColor),
     ),
     ),
     );

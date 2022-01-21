@@ -14,8 +14,8 @@ import 'package:flutter_svg/flutter_svg.dart';
         text: TextSpan(
           style: Theme.of(context).textTheme.headline6!.copyWith(fontWeight: 
           FontWeight.bold),
-          children: [
-            TextSpan(
+          children: const [
+             TextSpan(
               text: "Funk", style: TextStyle(color: ksecondaryColor),
               ),
               TextSpan(

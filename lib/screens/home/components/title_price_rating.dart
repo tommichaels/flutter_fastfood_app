@@ -19,7 +19,7 @@ class TitlePriceRating extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(vertical: 20),
+      padding: const EdgeInsets.symmetric(vertical: 20),
       child: Row(children: [
         Expanded(child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -27,14 +27,14 @@ class TitlePriceRating extends StatelessWidget {
           Text(name, 
           style: Theme.of(context).textTheme.headline6,
           ),
-          SizedBox(height: 10,),
+          const SizedBox(height: 10,),
           Row(
             children: [
               SmoothStarRating(
                 borderColor: kPrimaryColor,
                 rating: 4,
               ),
-              SizedBox(width: 10,),
+              const SizedBox(width: 10,),
               Text("$numOfReviews reviews"),
             ],
           ),
@@ -52,7 +52,7 @@ class TitlePriceRating extends StatelessWidget {
         clipper: PricerClipper(),
         child: Container(
         alignment: Alignment.topCenter,
-        padding: EdgeInsets.symmetric(vertical: 15,),  
+        padding: const EdgeInsets.symmetric(vertical: 15,),  
         height: 66, 
         width: 65,
         color: kPrimaryColor,
